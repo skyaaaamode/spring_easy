@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd">
+
+<!--    <bean id="accountService" class="com.zzf.east_project.service.imp.IAccountImp">-->
+<!--        <constructor-arg name="name" index="0" value="test"></constructor-arg>-->
+<!--        <constructor-arg name="age" index="1" value="18"></constructor-arg>-->
+<!--        <constructor-arg name="date" index="2"  ref="now"></constructor-arg>-->
+<!--    </bean>-->
+    <bean id="accountDao" class="com.zzf.east_project.dao.Imp.IAccountDaoImp"></bean>
+    <bean id="now" class="java.util.Date"></bean>
+    <bean id="accountService" class="com.zzf.east_project.service.imp.IAccountImp">
+         <property name="age" value="18"></property>
+        <property name="date" ref="now"></property>
+        <property name="name" value="test"></property>
+    </bean>
+</beans>

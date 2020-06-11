@@ -1,0 +1,4 @@
+# Project exclude paths
+/annotation01/target/
+/spring_demo/target/
+/spring_di_demo/target/

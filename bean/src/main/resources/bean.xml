@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--    创建bean的三种方式-->
+<!--    1）使用默认构造函数-->
+<!--    2）使用普通工厂中的方法创建对象（使用某个类的方法来创建对象）
+        3) 使用工厂方法中的静态方法来创建对象
+-->
+    <bean id="accountService" class="com.zzf.east_project.service.imp.IAccountImp"></bean>
+    <bean id="accountDao" class="com.zzf.east_project.dao.Imp.IAccountDaoImp"></bean>
+<!--    <bean id="accountService" factory-bean="factory" factory-method="smethod"></bean>-->
+<!--    对象的创建初始化和销毁-->
+<!--<bean id="accountService" class="com.zzf.east_project.service.imp.IAccountImp" init-method="init" destroy-method="destory" scope="singleton"></bean>-->
+</beans>
