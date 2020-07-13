@@ -2,6 +2,7 @@ package com.zzf.example.domain;
 
 import jdk.jfr.DataAmount;
 import lombok.Data;
+import org.springframework.context.annotation.Bean;
 
 /**
  * @author 37587

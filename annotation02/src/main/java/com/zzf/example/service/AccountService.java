@@ -1,6 +1,7 @@
 package com.zzf.example.service;
 
 import com.zzf.example.domain.Account;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -10,15 +11,17 @@ import java.util.List;
  * @date 2020/6/11 22:57
  * @description
  */
+
 public interface AccountService {
     List<Account> findAllAccount();
 
-    List<Account> findAccountById(Integer id);
+    Account     findAccountById(Integer id);
 
     void saveAccount(Account account);
 
     void updateAccout(Account account);
 
     void deleteAccount(Integer id);
+
 
 }

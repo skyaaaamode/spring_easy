@@ -1,6 +1,7 @@
 package com.zzf.example.dao;
 
 import com.zzf.example.domain.Account;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
@@ -10,6 +11,7 @@ import java.util.List;
  * @date 2020/6/11 23:00
  * @description
  */
+
 public interface AccountDao {
     List<Account> findAllAccount();
 

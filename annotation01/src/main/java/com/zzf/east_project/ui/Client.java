@@ -13,15 +13,15 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Client {
 
 
-    public static void main(String[] args) throws Exception {
-        /**
-         * 1.获取springioc核心容器对象
+    public static void main(String[] args) {
+        /*
+          1.获取springioc核心容器对象
          */
         ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
-        /**
-         * 2.根据id获取bean对象
+        /*
+          2.根据id获取bean对象
          */
-//        IAccountService accountService = (IAccountService)ac.getBean("accountService");
+        /* IAccountService accountService = (IAccountService)ac.getBean("accountService"); */
         IAccountService as = ac.getBean("accountService", IAccountService.class);
         as.saveAccount();
     }
