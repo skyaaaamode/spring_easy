@@ -30,7 +30,7 @@
         <module>shnegingshi01</module>
     </modules>
     <properties>
-        <spring.version>5.0.2.RELEASE</spring.version>
+        <spring.version>5.2.7.RELEASE</spring.version>
     </properties>
     <dependencies>
         <dependency>
