@@ -17,6 +17,17 @@
         <module>annotation02</module>
         <module>transfer</module>
         <module>proxy</module>
+        <module>AOP_XML</module>
+        <module>adviceType</module>
+        <module>AOP_ANNOTATION</module>
+        <module>jdbctemplate</module>
+        <module>aop_xml_anli</module>
+        <module>aop_annotation_anli</module>
+        <module>shiwu</module>
+        <module>shiwu02</module>
+        <module>shiwu03</module>
+        <module>shiwu04</module>
+        <module>shnegingshi01</module>
     </modules>
     <properties>
         <spring.version>5.0.2.RELEASE</spring.version>
@@ -139,6 +150,12 @@
             <version>1.4</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.3</version>
+        </dependency>
+
 <!--        lombok-->
             <dependency>
                 <groupId>org.projectlombok</groupId>
@@ -146,6 +163,7 @@
                 <version>1.18.4</version>
             </dependency>
     </dependencies>
+
 
 
 </project>

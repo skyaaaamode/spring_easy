@@ -8,13 +8,24 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="day01_demo" />
-        <module name="spring_demo" />
-        <module name="annotation01" />
+        <module name="jdbctemplate" />
+        <module name="aop_xml_anli" />
+        <module name="aop_annotation_anli" />
         <module name="spring_di_demo" />
+        <module name="AOP_ANNOTATION" />
         <module name="transfer" />
-        <module name="proxy" />
-        <module name="annotation02" />
         <module name="bean" />
+        <module name="proxy" />
+        <module name="spring_demo" />
+        <module name="shiwu04" />
+        <module name="adviceType" />
+        <module name="shnegingshi01" />
+        <module name="AOP_XML" />
+        <module name="annotation02" />
+        <module name="annotation01" />
+        <module name="shiwu03" />
+        <module name="shiwu02" />
+        <module name="shiwu" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
